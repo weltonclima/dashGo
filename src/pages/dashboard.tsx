@@ -66,13 +66,13 @@ export default function DashBoard() {
       <Flex w="100%" maxW={1480} my="6" mx="auto" px="6" >
         <Sidebar />
         <SimpleGrid flex="1" gap="4" minChildWidth="320px" align="flex-start" >
-          <Box p="8" bg="gray.800" borderRadius="8" pb="4">
+          <Box p={["6", "8"]} bg="gray.800" borderRadius="8" pb="4">
             <Text fontSize="lg" mb="4" >
               Inscritos da Semana
             </Text>
             <Chart options={options} series={series} type="area" height={160} />
           </Box>
-          <Box p="8" bg="gray.800" borderRadius="8" pb="4">
+          <Box p={["6", "8"]} bg="gray.800" borderRadius="8" pb="4">
             <Text fontSize="lg" mb="4" >
               Inscritos da Semana
             </Text>
