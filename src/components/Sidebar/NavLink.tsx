@@ -1,7 +1,6 @@
 import { Icon, Link as ChakraLink, Text, LinkProps as ChakraLinkProps } from "@chakra-ui/react";
 import { ElementType } from "react";
 import { ActiveLink } from '../ActiveLink'
-import Link from "next/link";
 
 interface NavLinkProps extends ChakraLinkProps {
   children: string;
