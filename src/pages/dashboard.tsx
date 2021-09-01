@@ -70,13 +70,13 @@ export default function DashBoard() {
             <Text fontSize="lg" mb="4" >
               Inscritos da Semana
             </Text>
-            <Chart options={options} series={series} type="area" height={160} />
+            {/*<Chart options={options} series={series} type="area" height={160} /> */}
           </Box>
           <Box p={["6", "8"]} bg="gray.800" borderRadius="8" pb="4">
             <Text fontSize="lg" mb="4" >
               Inscritos da Semana
             </Text>
-            <Chart options={options} series={series} type="area" height={160} />
+            {/*<Chart options={options} series={series} type="area" height={160} /> */}
           </Box>
         </SimpleGrid>
       </Flex>
